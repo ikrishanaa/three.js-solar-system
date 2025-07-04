@@ -53,17 +53,20 @@
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                max-height: 40vh;
+                max-height: 50vh;
                 border-radius: 20px 20px 0 0;
-                padding: 15px 20px;
+                padding: 10px 15px;
                 overflow-y: auto;
                 box-shadow: 0 -8px 32px 0 rgba(31, 38, 135, 0.37);
-                backdrop-filter: blur(15px);
-                -webkit-backdrop-filter: blur(15px);
-                font-size: 14px;
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                font-size: 16px;
                 z-index: 1001;
-                /* Added for smoother scrolling on mobile */
                 -webkit-overflow-scrolling: touch;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                justify-content: flex-start;
             }
 
             #controls-container.hidden {
@@ -76,73 +79,87 @@
                 position: fixed;
                 top: 10px;
                 left: 10px;
-                width: 48px;
-                height: 48px;
-                font-size: 36px;
+                width: 50px;
+                height: 50px;
+                font-size: 38px;
                 z-index: 1002;
-                border-radius: 8px;
-                background-color: rgba(0, 123, 255, 0.8);
+                border-radius: 10px;
+                background-color: rgba(0, 123, 255, 0.85);
                 color: white;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                box-shadow: 0 4px 12px rgba(0, 123, 255, 0.6);
+                box-shadow: 0 5px 15px rgba(0, 123, 255, 0.7);
                 transition: background-color 0.3s, box-shadow 0.3s;
             }
 
             #hamburger-button:hover {
                 background-color: rgba(0, 123, 255, 1);
-                box-shadow: 0 6px 16px rgba(0, 123, 255, 0.8);
+                box-shadow: 0 7px 20px rgba(0, 123, 255, 0.9);
             }
 
             #controls-container h2 {
-                font-size: 20px;
-                margin-bottom: 8px;
+                font-size: 22px;
+                margin-bottom: 10px;
+                text-align: center;
             }
 
             #controls-container h3 {
-                font-size: 16px;
-                margin-bottom: 12px;
+                font-size: 18px;
+                margin-bottom: 14px;
+                text-align: center;
             }
 
             .slider-container {
-                margin-bottom: 16px;
+                margin-bottom: 18px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
             }
 
             label {
-                font-size: 15px;
+                font-size: 16px;
+                margin-bottom: 6px;
                 user-select: none;
             }
 
             input[type="range"] {
-                height: 14px;
+                height: 18px;
+                width: 100%;
             }
 
             input[type="range"]::-webkit-slider-thumb {
-                width: 32px;
-                height: 32px;
-                margin-top: -9px;
+                width: 36px;
+                height: 36px;
+                margin-top: -10px;
             }
 
             input[type="range"]::-moz-range-thumb {
-                width: 32px;
-                height: 32px;
+                width: 36px;
+                height: 36px;
             }
 
             button {
-                padding: 14px 0;
-                font-size: 16px;
-                border-radius: 14px;
+                padding: 16px 0;
+                font-size: 18px;
+                border-radius: 16px;
+                flex-grow: 1;
+                user-select: none;
             }
 
             #ui-buttons {
-                gap: 14px;
-                margin-top: 20px;
+                gap: 16px;
+                margin-top: 24px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
             }
 
             #tooltip {
-                font-size: 16px;
-                padding: 10px 14px;
+                font-size: 18px;
+                padding: 12px 16px;
             }
         }
 
