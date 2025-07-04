@@ -2,7 +2,7 @@
 
 _A timeless voyage through code and cosmos._
 
-![Solar System Thumbnail](Screenshot 2025-07-05 044416.png)
+![Solar System Thumbnail](./Screenshot 2025-07-05 044416.png)
 
 ---
 
