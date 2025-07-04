@@ -2,7 +2,7 @@
 
 _A timeless voyage through code and cosmos._
 
-![Solar System Thumbnail]([./Screenshot 2025-07-05 044416.png](https://github.com/ikrishanaa/three.js-solar-system/blob/5a5489c60b371a8a7557634ea068946e4bf2c793/Screenshot%202025-07-05%20044416.png))
+![Solar System Thumbnail](./Screenshot 2025-07-05 044416.png)
 
 ---
 
