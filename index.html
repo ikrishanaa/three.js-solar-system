@@ -49,15 +49,15 @@
         @media (max-width: 600px) {
             #controls-container {
                 position: fixed;
-                top: auto;
+                top: 0;
                 bottom: 0;
-                left: 5%;
-                width: 90%;
-                max-height: 45vh;
-                border-radius: 16px 16px 0 0;
-                padding: 6px 10px;
+                left: 0;
+                width: 280px;
+                max-height: 100vh;
+                border-radius: 0 16px 16px 0;
+                padding: 10px 15px;
                 overflow-y: auto;
-                box-shadow: 0 -8px 32px 0 rgba(31, 38, 135, 0.37);
+                box-shadow: 8px 0 32px 0 rgba(31, 38, 135, 0.37);
                 backdrop-filter: blur(20px);
                 -webkit-backdrop-filter: blur(20px);
                 font-size: 14px;
@@ -70,7 +70,7 @@
             }
 
             #controls-container.hidden {
-                transform: translateY(100%);
+                transform: translateX(-100%);
                 opacity: 0;
                 pointer-events: none;
             }
@@ -78,7 +78,7 @@
             #hamburger-button {
                 position: fixed;
                 top: 10px;
-                left: 10px;
+                left: 290px;
                 width: 32px;
                 height: 32px;
                 font-size: 22px;
