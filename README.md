@@ -1,4 +1,4 @@
-# 🌌 Three.js Solar System
+# 🌌 CelestiaJS
 
 _A timeless voyage through code and cosmos._
 
